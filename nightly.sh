@@ -47,6 +47,7 @@ bldhwpack mele-a1000 .
 bldhwpack mele-a1000-vga .
 bldhwpack mk802 .
 bldhwpack oval-elephant .
+bldhwpack mediacom_711i .
 popd
 
 #server builds
