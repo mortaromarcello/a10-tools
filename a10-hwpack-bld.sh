@@ -71,7 +71,7 @@ if [ ! -f .script.${board} ]
 then
     echo "Checking out config files"
     if [ ! -d a10-config ]; then
-        try git clone git://github.com/cnxsoft/a10-config.git >> ${make_log}
+        try git clone git://github.com/mortaromarcello/a10-config.git >> ${make_log}
     fi
     try pushd a10-config/script.fex >> ${make_log} 2>&1
     echo "Generating ${board}.bin file"
